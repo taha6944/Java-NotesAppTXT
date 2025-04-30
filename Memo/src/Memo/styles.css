@@ -1,0 +1,70 @@
+/* Varsayılan stiller */
+.root {
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+}
+
+/* Light Tema */
+.light-theme {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.light-theme .list-view {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.light-theme .text-area {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-control-inner-background: white;
+}
+
+.light-theme .button {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: black;
+}
+
+.light-theme .label {
+    -fx-text-fill: green;
+}
+
+/* Dark Tema */
+.dark-theme {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.dark-theme .list-view {
+    -fx-background-color: #191919;
+    -fx-text-fill: white;
+}
+
+.dark-theme .text-area {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-control-inner-background: black;
+}
+
+.dark-theme .button {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+
+.dark-theme .label {
+    -fx-text-fill: lightgreen;
+}
+
+/* Ek stiller */
+.button:hover {
+    -fx-background-color: #a0a0a0; /* Light tema için */
+}
+
+.dark-theme .button:hover {
+    -fx-background-color: #555555; /* Dark tema için */
+}
+
+.notification {
+    -fx-padding: 5px;
+}
